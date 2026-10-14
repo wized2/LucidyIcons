@@ -1,24 +1,38 @@
 # Lucidy Icons
 
-**Lucidy Icons** is a free Android icon pack for [Lawnchair](https://github.com/LawnchairLauncher/lawnchair), Nova, and other launchers.
+[![Build & Release](https://github.com/wized2/LucidyIcons/actions/workflows/build.yml/badge.svg)](https://github.com/wized2/LucidyIcons/actions/workflows/build.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Icons are taken **from the official [Lucide](https://lucide.dev) set** (MIT License). Paths are converted to Android VectorDrawables — not hand-redrawn copies.
+**Lucidy Icons** is a free, open-source Android icon pack for [Lawnchair](https://github.com/LawnchairLauncher/lawnchair), Nova, and other launchers.
 
-## Apply
+Icons come from the official **[Lucide](https://lucide.dev)** set (MIT). Path data is converted to VectorDrawables — not redrawn by hand.
 
-1. Install the APK from [Releases](https://github.com/wized2/LucidyIcons/releases)
-2. Lawnchair → Settings → Icon pack → **Lucidy Icons**
+**Website:** https://wized2.github.io/LucidyIcons/
+
+## Install
+
+1. Download `LucidyIcons-release.apk` from [Releases](https://github.com/wized2/LucidyIcons/releases)
+2. Install → allow unknown sources if asked
+3. **Lawnchair → Settings → Icon pack → Lucidy Icons**
+
+## Features
+
+- 100+ Lucide stroke icons
+- Component mappings for common system & social apps
+- Monochrome, launcher-tintable
+- Signed release APKs via CI
+
+## Build
+
+```bash
+./gradlew assembleRelease
+```
 
 ## Credits
 
-- [Lucide](https://github.com/lucide-icons/lucide) — icon designs (MIT)
-- Pack packaging — Project Endroid / Mudasir Wazir
+- [Lucide](https://github.com/lucide-icons/lucide) — icons (MIT)
+- Packaging — [Project Endroid](https://github.com/wized2) / Mudasir Wazir
 
 ## License
 
-- App code: MIT
-- Lucide artwork: MIT (Lucide Contributors) — see their license
-
-## Website
-
-https://wized2.github.io/LucidyIcons/
+MIT — see [LICENSE](LICENSE). Lucide artwork remains under Lucide’s MIT license.
