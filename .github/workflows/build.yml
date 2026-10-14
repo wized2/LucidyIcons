@@ -12,27 +12,39 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 17
-      - uses: android-actions/setup-android@v3
-      - name: Licenses
-        run: yes | sdkmanager --licenses || true
-      - name: Build
-        run: chmod +x gradlew && ./gradlew assembleRelease --stacktrace
+          java-version: "17"
+
+      - name: Setup Android SDK path
+        run: |
+          echo "ANDROID_HOME=$ANDROID_HOME" >> $GITHUB_ENV
+          echo "ANDROID_SDK_ROOT=$ANDROID_HOME" >> $GITHUB_ENV
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
+          yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platforms;android-35" "build-tools;35.0.0" || true
+
+      - name: Build release APK
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleRelease --stacktrace
+
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: lucidy-icons-release
           path: app/build/outputs/apk/release/*.apk
-      - name: Release
+
+      - name: Publish GitHub Release
         if: github.ref == 'refs/heads/main'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v1.0.0-${{ github.run_number }}
-          name: Lucidy Icons ${{ github.run_number }}
+          tag_name: v1.0.${{ github.run_number }}
+          name: Lucidy Icons 1.0.${{ github.run_number }}
           files: app/build/outputs/apk/release/*.apk
-          generate_release_notes: true
+          body: |
+            Lucidy Icons — official Lucide paths as an Android icon pack.
+            Apply in Lawnchair → Icon pack → Lucidy Icons.
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
