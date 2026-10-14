@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Theme version="1">
+    <Label value="Lucidy Icons" />
+    <Wallpaper />
+    <LockScreenWallpaper />
+    <IconPack value="com.endroid.lucidyicons" />
+</Theme>

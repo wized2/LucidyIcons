@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wized2.github.io/LucidyIcons/sitemap.xml

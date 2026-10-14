@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lucidy Icons</string>
+    <string name="tagline">Official Lucide icons for Android launchers</string>
+    <string name="how_title">Apply in Lawnchair</string>
+    <string name="how_body">Open Lawnchair settings → Icon style / Icon pack → choose Lucidy Icons. Other launchers: look for “Icon pack” or “Theme” and select Lucidy Icons.</string>
+    <string name="about_body">Icons are converted path-for-path from the official Lucide set (MIT). Lucide is made by the Lucide contributors — https://lucide.dev. Lucidy only packages them for launcher theming.</string>
+    <string name="icon_count">112 Lucide icons · 50+ app mappings</string>
+</resources>
