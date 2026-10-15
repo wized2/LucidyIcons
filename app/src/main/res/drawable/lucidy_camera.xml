@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Official Lucide icon (MIT) — https://lucide.dev — converted path data only -->
+<!-- Lucide (MIT) · Lawnicons 192 / 12px stroke -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
-    <path
-        android:pathData="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"
-        android:fillColor="#00000000"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="1.75"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"/>
-    <path
-        android:pathData="M9.0,13.0a3.0,3.0 0 1,0 6.0,0a3.0,3.0 0 1,0 -6.0,0"
-        android:fillColor="#00000000"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="1.75"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"/>
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="192" android:viewportHeight="192">
+  <path android:pathData="M 108.315 46.667 a 12.333 12.333 0.000 0 1 10.853 6.475 l 2.997 5.550 A 12.333 12.333 0.000 0 0 133.019 65.167 H 145.333 a 12.333 12.333 0.000 0 1 12.333 12.333 v 55.500 a 12.333 12.333 0.000 0 1 -12.333 12.333 H 46.667 a 12.333 12.333 0.000 0 1 -12.333 -12.333 V 77.500 a 12.333 12.333 0.000 0 1 12.333 -12.333 h 12.315 a 12.333 12.333 0.000 0 0 10.847 -6.463 l 3.016 -5.575 A 12.333 12.333 0.000 0 1 83.691 46.667 z" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+  <path android:pathData="M77.500,102.167a18.500,18.500 0 1,0 37.000,0a18.500,18.500 0 1,0 -37.000,0" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
 </vector>

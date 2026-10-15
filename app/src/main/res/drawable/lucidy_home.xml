@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Official Lucide icon (MIT) — https://lucide.dev -->
+<!-- Lucide (MIT) · Lawnicons 192 / 12px stroke -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
-    <path
-        android:pathData="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"
-        android:fillColor="#00000000"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="1.75"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"/>
-    <path
-        android:pathData="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
-        android:fillColor="#00000000"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="1.75"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"/>
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="192" android:viewportHeight="192">
+  <path android:pathData="M 114.500 151.500 v -49.333 a 6.167 6.167 0.000 0 0 -6.167 -6.167 h -24.667 a 6.167 6.167 0.000 0 0 -6.167 6.167 v 49.333" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+  <path android:pathData="M 40.500 83.667 a 12.333 12.333 0.000 0 1 4.372 -9.423 l 43.167 -37.000 a 12.333 12.333 0.000 0 1 15.922 0.000 l 43.167 37.000 A 12.333 12.333 0.000 0 1 151.500 83.667 v 55.500 a 12.333 12.333 0.000 0 1 -12.333 12.333 H 52.833 a 12.333 12.333 0.000 0 1 -12.333 -12.333 z" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
 </vector>

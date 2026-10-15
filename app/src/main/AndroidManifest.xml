@@ -3,9 +3,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/lucidy_layout_grid"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/lucidy_layout_grid"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LucidyIcons">
         <meta-data android:name="org.adw.launcher.icon.theme" android:resource="@xml/appfilter" />

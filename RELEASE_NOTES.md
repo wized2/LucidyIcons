@@ -1,15 +1,13 @@
-# Lucidy Icons 1.0.2
+# Lucidy Icons 1.1.0
 
-## Fixes
-- Proper **release signing** (v1 + v2 + v3) — fixes “package appears to be invalid”
-- Removed theme `tint` attrs from vectors so launchers can load icons safely
-- Fern-style CI with keystore secrets on every release
+## Icons (Lawnicons guidelines)
+- **192×192** canvas, **12px** center stroke, content inset like Lawnicons abstract icons
+- Official **Lucide** path data only (MIT), scaled to the Lawnicons safe zone
+- Glyph color: black in light theme, white in dark theme so icon pickers stay visible
 
-## Size
-- Dropped unused ConstraintLayout dependency
-- R8 minify enabled (resources kept for appfilter icons)
+## App
+- New **adaptive launcher icon** (purple + grid mark)
+- Smaller APK: dropped Material/ConstraintLayout; only icons used by appfilter kept
 
 ## Apply
-Lawnchair → Settings → Icon pack → **Lucidy Icons**
-
-Icons are official [Lucide](https://lucide.dev) paths (MIT).
+Lawnchair → Settings → Icon pack → Lucidy Icons

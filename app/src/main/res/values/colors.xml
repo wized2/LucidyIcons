@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="icon_pack_glyph">#FF000000</color>
+    <color name="ic_launcher_background">#6750A4</color>
+    <color name="ic_launcher_foreground_stroke">#FFFFFFFF</color>
+</resources>

@@ -1,36 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Official Lucide icon (MIT) — https://lucide.dev — converted path data only -->
+<!-- Lucide (MIT) · Lawnicons 192 / 12px stroke -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
-    <path
-        android:pathData="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"
-        android:fillColor="#00000000"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="1.75"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"/>
-    <path
-        android:pathData="M16 3.128a4 4 0 0 1 0 7.744"
-        android:fillColor="#00000000"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="1.75"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"/>
-    <path
-        android:pathData="M22 21v-2a4 4 0 0 0-3-3.87"
-        android:fillColor="#00000000"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="1.75"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"/>
-    <path
-        android:pathData="M5.0,7.0a4.0,4.0 0 1,0 8.0,0a4.0,4.0 0 1,0 -8.0,0"
-        android:fillColor="#00000000"
-        android:strokeColor="#FF000000"
-        android:strokeWidth="1.75"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round"/>
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="192" android:viewportHeight="192">
+  <path android:pathData="M 120.667 151.500 v -12.333 a 24.667 24.667 0.000 0 0 -24.667 -24.667 H 59.000 a 24.667 24.667 0.000 0 0 -24.667 24.667 v 12.333" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+  <path android:pathData="M 120.667 41.289 a 24.667 24.667 0.000 0 1 0.000 47.755" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+  <path android:pathData="M 157.667 151.500 v -12.333 a 24.667 24.667 0.000 0 0 -18.500 -23.865" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+  <path android:pathData="M52.833,65.167a24.667,24.667 0 1,0 49.333,0a24.667,24.667 0 1,0 -49.333,0" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
 </vector>

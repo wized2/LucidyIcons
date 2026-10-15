@@ -11,8 +11,8 @@ android {
         applicationId = "com.endroid.lucidyicons"
         minSdk = 26
         targetSdk = 35
-        versionCode = 3
-        versionName = "1.0.2"
+        versionCode = 4
+        versionName = "1.1.0"
         resourceConfigurations += listOf("en")
     }
 
@@ -48,7 +48,7 @@ android {
         }
         release {
             isMinifyEnabled = true
-            isShrinkResources = false // keep all icon drawables referenced only from appfilter
+            isShrinkResources = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -84,7 +84,6 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.15.0")
+    // Minimal — icon pack does not need Material components
     implementation("androidx.appcompat:appcompat:1.7.0")
-    implementation("com.google.android.material:material:1.12.0")
 }

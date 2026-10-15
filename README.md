@@ -17,6 +17,9 @@ Icons come from the official **[Lucide](https://lucide.dev)** set (MIT). Path da
 
 ## Features
 
+- Lawnicons-style **192px / 12px stroke** geometry
+- Light/dark glyph colors for readable pickers
+
 - 100+ Lucide stroke icons
 - Component mappings for common system & social apps
 - Monochrome, launcher-tintable
