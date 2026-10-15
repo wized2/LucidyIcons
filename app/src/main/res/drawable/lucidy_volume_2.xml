@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lucide MIT · Lawnicons 192/12px -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="192" android:viewportHeight="192">
+  <path android:pathData="M 89.833 50.996 a 4.348 4.348 0.000 0 0 -7.419 -3.071 L 61.547 68.787 A 8.633 8.633 0.000 0 1 55.399 71.333 H 40.500 a 6.167 6.167 0.000 0 0 -6.167 6.167 v 37.000 a 6.167 6.167 0.000 0 0 6.167 6.167 h 14.899 a 8.633 8.633 0.000 0 1 6.148 2.547 l 20.862 20.868 A 4.348 4.348 0.000 0 0 89.833 141.004 z" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+  <path android:pathData="M 120.667 77.500 a 30.833 30.833 0.000 0 1 0.000 37.000" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+  <path android:pathData="M 141.411 135.245 a 55.500 55.500 0.000 0 0 0.000 -78.489" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+</vector>

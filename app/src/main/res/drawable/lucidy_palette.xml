@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lucide MIT · Lawnicons 192/12px -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp" android:height="192dp"
+    android:viewportWidth="192" android:viewportHeight="192">
+  <path android:pathData="M 96.000 157.667 a 6.167 6.167 0.000 0 1 0.000 -123.333 61.667 55.500 0.000 0 1 61.667 55.500 30.833 30.833 0.000 0 1 -30.833 30.833 h -13.875 a 10.792 10.792 0.000 0 0 -8.633 17.267 l 1.850 2.467 a 10.792 10.792 0.000 0 1 -8.633 17.267 z" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+  <path android:pathData="M102.167,62.083a3.083,3.083 0 1,0 6.167,0a3.083,3.083 0 1,0 -6.167,0" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+  <path android:pathData="M126.833,86.750a3.083,3.083 0 1,0 6.167,0a3.083,3.083 0 1,0 -6.167,0" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+  <path android:pathData="M59.000,99.083a3.083,3.083 0 1,0 6.167,0a3.083,3.083 0 1,0 -6.167,0" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+  <path android:pathData="M71.333,68.250a3.083,3.083 0 1,0 6.167,0a3.083,3.083 0 1,0 -6.167,0" android:fillColor="#00000000" android:strokeColor="@color/icon_pack_glyph" android:strokeWidth="12" android:strokeLineCap="round" android:strokeLineJoin="round"/>
+</vector>

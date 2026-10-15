@@ -1,60 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Lucidy Icons — maps launcher components to official Lucide-based drawables -->
+    <iconback img1="lucidy_layout_grid" />
+    <iconmask img1="lucidy_layout_grid" />
+    <iconupon img1="lucidy_layout_grid" />
+    <scale factor="1.0" />
+
+    <!-- Dialer / Phone -->
     <item component="ComponentInfo{com.android.dialer/com.android.dialer.main.impl.MainActivity}" drawable="lucidy_phone" />
     <item component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}" drawable="lucidy_phone" />
     <item component="ComponentInfo{com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity}" drawable="lucidy_phone" />
-    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="lucidy_contact" />
-    <item component="ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="lucidy_contact" />
-    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="lucidy_message_circle" />
-    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="lucidy_message_circle" />
+    <item component=":LAUNCHER_ACTION_PHONE" drawable="lucidy_phone" />
+
+    <!-- Messages -->
     <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.main.MainActivity}" drawable="lucidy_message_circle" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="lucidy_mail" />
-    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ui.MailActivityGmail}" drawable="lucidy_mail" />
+    <item component="ComponentInfo{com.android.mms/com.android.mms.ui.ConversationList}" drawable="lucidy_message_circle" />
+    <item component=":LAUNCHER_ACTION_MESSAGING" drawable="lucidy_message_circle" />
+
+    <!-- Browser -->
     <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="lucidy_globe" />
-    <item component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}" drawable="lucidy_globe" />
     <item component="ComponentInfo{org.mozilla.firefox/org.mozilla.firefox.App}" drawable="lucidy_globe" />
     <item component="ComponentInfo{com.brave.browser/com.google.android.apps.chrome.Main}" drawable="lucidy_globe" />
+    <item component=":LAUNCHER_ACTION_BROWSER" drawable="lucidy_globe" />
+
+    <!-- Camera / Gallery -->
     <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="lucidy_camera" />
     <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="lucidy_camera" />
-    <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="lucidy_camera" />
     <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="lucidy_image" />
-    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="lucidy_map" />
+    <item component="ComponentInfo{com.sec.android.gallery3d/com.samsung.android.gallery.app.activity.GalleryActivity}" drawable="lucidy_image" />
+
+    <!-- Settings / Contacts / Clock / Calendar / Calculator -->
     <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="lucidy_settings" />
+    <item component="ComponentInfo{com.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="lucidy_contact" />
+    <item component="ComponentInfo{com.google.android.contacts/com.android.contacts.activities.PeopleActivity}" drawable="lucidy_contact" />
+    <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="lucidy_clock" />
+    <item component="ComponentInfo{com.android.deskclock/com.android.deskclock.DeskClock}" drawable="lucidy_clock" />
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="lucidy_calendar" />
+    <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="lucidy_calculator" />
+    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="lucidy_calculator" />
+
+    <!-- Play Store / Files / Maps / Mail -->
     <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="lucidy_shopping_bag" />
+    <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="lucidy_folder" />
+    <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="lucidy_folder" />
+    <item component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}" drawable="lucidy_map" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="lucidy_mail" />
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ui.MailActivityGmail}" drawable="lucidy_mail" />
+
+    <!-- Social / Chat (semantic Lucide marks) -->
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="lucidy_message_circle" />
+    <item component="ComponentInfo{com.whatsapp/com.whatsapp.home.ui.HomeActivity}" drawable="lucidy_message_circle" />
+    <item component="ComponentInfo{com.instagram.android/com.instagram.mainactivity.LauncherActivity}" drawable="lucidy_camera" />
+    <item component="ComponentInfo{com.twitter.android/com.twitter.app.main.MainActivity}" drawable="lucidy_message_square" />
+    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="lucidy_users" />
+    <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="lucidy_message_circle" />
+    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="lucidy_send" />
+    <item component="ComponentInfo{com.discord/com.discord.main.MainActivity}" drawable="lucidy_message_square" />
+    <item component="ComponentInfo{com.snapchat.android/com.snap.mushroom.MainActivity}" drawable="lucidy_camera" />
+    <item component="ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="lucidy_video" />
     <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}" drawable="lucidy_play" />
     <item component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}" drawable="lucidy_music" />
     <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="lucidy_music" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.Main}" drawable="lucidy_message_circle" />
-    <item component="ComponentInfo{com.whatsapp/com.whatsapp.home.ui.HomeActivity}" drawable="lucidy_message_circle" />
-    <item component="ComponentInfo{com.whatsapp.w4b/com.whatsapp.Main}" drawable="lucidy_message_square" />
-    <item component="ComponentInfo{org.telegram.messenger/org.telegram.ui.LaunchActivity}" drawable="lucidy_send" />
-    <item component="ComponentInfo{org.thunderdog.challegram/org.thunderdog.challegram.MainActivity}" drawable="lucidy_send" />
-    <item component="ComponentInfo{com.instagram.android/com.instagram.mainactivity.LauncherActivity}" drawable="lucidy_camera" />
-    <item component="ComponentInfo{com.facebook.katana/com.facebook.katana.LoginActivity}" drawable="lucidy_users" />
-    <item component="ComponentInfo{com.facebook.orca/com.facebook.orca.auth.StartScreenActivity}" drawable="lucidy_message_square" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.app.main.MainActivity}" drawable="lucidy_share_2" />
-    <item component="ComponentInfo{com.twitter.android/com.twitter.android.StartActivity}" drawable="lucidy_share_2" />
-    <item component="ComponentInfo{com.snapchat.android/com.snapchat.android.LandingPageActivity}" drawable="lucidy_camera" />
-    <item component="ComponentInfo{com.zhiliaoapp.musically/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="lucidy_video" />
-    <item component="ComponentInfo{com.ss.android.ugc.trill/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="lucidy_video" />
-    <item component="ComponentInfo{com.discord/com.discord.app.AppActivity$Main}" drawable="lucidy_messages_square" />
-    <item component="ComponentInfo{com.reddit.frontpage/launcher.default}" drawable="lucidy_message_square" />
-    <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="lucidy_folder" />
-    <item component="ComponentInfo{com.google.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="lucidy_folder_open" />
-    <item component="ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}" drawable="lucidy_folder_open" />
-    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="lucidy_calendar" />
-    <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="lucidy_clock" />
-    <item component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}" drawable="lucidy_calculator" />
-    <item component="ComponentInfo{com.android.calculator2/com.android.calculator2.Calculator}" drawable="lucidy_calculator" />
-    <item component="ComponentInfo{com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity}" drawable="lucidy_heart" />
-    <item component="ComponentInfo{com.google.android.apps.subscriptions.red/com.google.android.apps.subscriptions.red.launcher.LauncherActivity}" drawable="lucidy_play" />
-    <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}" drawable="lucidy_film" />
-    <item component="ComponentInfo{com.amazon.mShop.android.shopping/com.amazon.mShop.home.HomeActivity}" drawable="lucidy_shopping_cart" />
-    <item component="ComponentInfo{com.ubercab/com.ubercab.presidio.app.core.root.RootActivity}" drawable="lucidy_car" />
-    <item component="ComponentInfo{com.android.launcher3/com.android.settings.Settings}" drawable="lucidy_settings" />
-    <item component="ComponentInfo{ch.deletescape.lawnchair.plah/ch.deletescape.lawnchair.settings.ui.SettingsActivity}" drawable="lucidy_settings" />
-    <item component="ComponentInfo{app.lawnchair/app.lawnchair.ui.preferences.PreferenceActivity}" drawable="lucidy_settings" />
-    <item component="ComponentInfo{com.android.vending/com.google.android.finsky.activities.MainActivity}" drawable="lucidy_shopping_bag" />
-    <item component="ComponentInfo{org.protonaosp.launcher/com.android.launcher3.uioverrides.QuickstepLauncher}" drawable="lucidy_layout_grid" />
+
+    <!-- Productivity -->
+    <item component="ComponentInfo{com.google.android.apps.docs/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="lucidy_folder" />
+    <item component="ComponentInfo{com.microsoft.office.officehubrow/com.microsoft.office.officesuite.FirstRunActivity}" drawable="lucidy_file_text" />
+    <item component="ComponentInfo{com.notion.id/notion.ui.MainActivity}" drawable="lucidy_file_text" />
+    <item component="ComponentInfo{com.todoist/com.todoist.activity.HomeActivity}" drawable="lucidy_check_circle" />
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="lucidy_file_text" />
+
+    <!-- Endroid apps -->
+    <item component="ComponentInfo{com.endroid.fern/com.endroid.fern.MainActivity}" drawable="lucidy_layout_grid" />
+    <item component="ComponentInfo{com.endroid.dharness/com.endroid.dharness.MainActivity}" drawable="lucidy_terminal" />
+    <item component="ComponentInfo{com.endroid.codecanvas/com.endroid.codecanvas.MainActivity}" drawable="lucidy_code" />
+    <item component="ComponentInfo{com.endroid.class8homework/com.endroid.class8homework.MainActivity}" drawable="lucidy_book_open" />
+    <item component="ComponentInfo{com.endroid.filesjump/com.endroid.filesjump.MainActivity}" drawable="lucidy_folder" />
+    <item component="ComponentInfo{com.endroid.lucidyicons/com.endroid.lucidyicons.MainActivity}" drawable="lucidy_layout_grid" />
 </resources>

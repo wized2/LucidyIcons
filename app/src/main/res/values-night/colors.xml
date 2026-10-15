@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Visible on dark icon pickers; launchers that tint still apply their color -->
     <color name="icon_pack_glyph">#FFFFFFFF</color>
 </resources>

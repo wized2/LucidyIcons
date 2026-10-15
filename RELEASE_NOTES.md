@@ -1,13 +1,9 @@
-# Lucidy Icons 1.1.0
+# Lucidy Icons 1.2.0
 
-## Icons (Lawnicons guidelines)
-- **192×192** canvas, **12px** center stroke, content inset like Lawnicons abstract icons
-- Official **Lucide** path data only (MIT), scaled to the Lawnicons safe zone
-- Glyph color: black in light theme, white in dark theme so icon pickers stay visible
-
-## App
-- New **adaptive launcher icon** (purple + grid mark)
-- Smaller APK: dropped Material/ConstraintLayout; only icons used by appfilter kept
+## Icons
+- Expanded pack (~100 Lucide glyphs) at **Lawnicons scale** (192 canvas, 12px stroke)
+- Broader **appfilter** coverage: dialer, messages, Chrome/Firefox, WhatsApp, Telegram, Instagram, YouTube, Maps, Gmail, Files, Endroid apps, …
+- Light/dark glyph colors so pickers stay readable
 
 ## Apply
 Lawnchair → Settings → Icon pack → Lucidy Icons
